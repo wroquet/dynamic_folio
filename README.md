@@ -1,3 +1,3 @@
 # dynamic_folio
 
-Personnal folio
+Personnal folio - Work in progress
