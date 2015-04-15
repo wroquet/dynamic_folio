@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(http://fonts.gstatic.com/s/roboto/v12/2tsd397wLxj96qwHyNIkxPesZW2xOQ-xsNqO47m55DA.woff2) format('woff2'), url(http://fonts.gstatic.com/s/roboto/v12/vzIUHo9z-oJ4WgkpPOtg1_esZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+
+*,
+*:after,
+*:before{
+  box-sizing:border-box;
+}
+
+body{
+  background: #333D58;
+}
+.text{
+  font: 36px Roboto;
+  color: #f8f8f8;
+  text-align: center;
+}
+.menu-icon{
+  margin: auto;
+  margin-top: 50px;
+  width:40px;
+  cursor: pointer;
+  
+  &:before,
+  &:after,
+  .menu-icon-line{
+    background: #fff;
+    content:'';
+    display:block;
+    height:3px;
+    margin:6px 0;
+    width:100%;
+    border-radius: 4px;
+    transition: all .3s ease;
+  }
+  
+  
+}
+  
+  .effect1:after{ 
+    transform: translateY(-9px) rotate(225deg);
+  }
+  .effect1 .menu-icon-line{ 
+    transform: rotate(180deg);
+    opacity: 0;
+  }
+  .effect1:before{ 
+    transform: translateY(9px) rotate(135deg);
+  }
+  
+
+  
+  
+

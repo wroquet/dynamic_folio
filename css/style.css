@@ -1,0 +1,75 @@
+body{
+
+}
+
+
+#content {
+
+}
+
+#wrapper {
+  margin: 0 auto;
+  max-width: 1100px;
+
+
+}
+.rotate {
+
+    -webkit-transform: rotate(90deg);
+    -webkit-transform-origin: left top;
+    -moz-transform: rotate(90deg);
+    -moz-transform-origin: left top;
+    -ms-transform: rotate(90deg);
+    -ms-transform-origin: left top;
+    -o-transform: rotate(90deg);
+    -o-transform-origin: left top;
+    transform: rotate(90deg);
+    transform-origin: left top;
+
+    position: absolute;
+    top: 0;
+    width: 70px;
+    height: 50px;
+    left: 70px;
+    white-space: nowrap;    
+    font-size: 48px;
+}
+
+/* -------------- MENU-------------- */
+#logo{
+      text-indent: -9999px;
+      background: url(pictures/hey.jpg);
+}
+
+#logo a{
+    display: block;
+    height: 120px;
+    width: 100px;
+}
+
+.project{
+  width: 160px;
+  height:200px;
+  background-color: blue;
+  float: left;
+  margin-right: 5%;
+  margin-bottom: 50px;
+}
+#menu {
+margin-top: 50px;
+padding-bottom: 200px;
+
+}
+
+#menu li{
+float:right;
+list-style: none;
+
+padding-left: 20px;
+font-family: 'Montserrat', sans-serif;
+}
+
+#menu li a{
+  text-decoration:none;
+
+  }
