@@ -10,7 +10,7 @@ outline: none;
 
 #wrapper {
   margin: 0 auto;
-  max-width: 1300px;
+  max-width: 1200px;
   height: 1000px;
   
   /* background-color: red; */
@@ -24,7 +24,8 @@ outline: none;
 .left_sidebar{
     width: 60px;
     float: left;
-    padding-right: 50px;
+    padding-right: 10px;
+    overflow: hidden;
     /* background-color: green; */
     /* border:#000 1px solid; */
 
@@ -107,6 +108,7 @@ margin-left: 50px;
       background-repeat: no-repeat;
       float: left !important;
       margin-top: -1px;
+      margin-left: 35px;
       
 }
 
@@ -190,11 +192,17 @@ text-decoration: underline;
 /* -------------- Projects-------------- */
 
 .project{
-  width: 180px;
-  height:280px;
+  max-width: 200px;
   background-color: blue;
   float: left;
-  margin-right: 80px;
-  margin-bottom: 50px;
+  margin-left: 40px;
+  margin-bottom: 5%;
+  position: relative;
+  
+}
+
+#projects_container{
+overflow:  hidden;
+background-color: purple;
 }
 
