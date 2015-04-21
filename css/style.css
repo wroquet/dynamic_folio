@@ -1,6 +1,7 @@
 body{
 background-color: #f8f8f8;
 display:inline;
+outline: none;
 }
 
 
@@ -19,12 +20,13 @@ display:inline;
 
 
 
-/* ------------- SIDEBAR PROJECTS------------- */
+/* ------ SIDEBAR CALL TO ACTION------ */
 .left_sidebar{
     width: 60px;
     float: left;
-    background-color: green;
-    border:#000 1px solid;
+    padding-right: 50px;
+    /* background-color: green; */
+    /* border:#000 1px solid; */
 
    
   }
@@ -66,13 +68,35 @@ outline: none;
   transform: rotate(-90deg); 
 
 }  
+/* ----------- SIDEBAR PROJECTS----------- */
+
+.notselectedmenu {
+  font-size:30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:100;
+  list-style-type: none; 
+  margin-left:-40px;
+  color:#555;
+  margin-left: 20px;
+}
+
+.selected {
+color: blue;
+font-size:30px;
+font-family: 'Montserrat', sans-serif;
+margin-bottom: 350px;
+margin-left: 50px;
+}
+
 
 
 
 /* -------------- MENU-------------- */
 
 #top_menu{
-  background-color: red;
+   
+  padding-top: 30px;
+ 
 }
 
 #logo{
@@ -83,13 +107,13 @@ outline: none;
       background-repeat: no-repeat;
       float: left !important;
       margin-top: -1px;
-      margin-left: 9px;
+      
 }
 
 #menu {
-padding-top: 50px;
+padding-top: 25px;
 padding-bottom: 60px;
-margin-bottom: 200px;
+margin-bottom: 50px;
 }
 #menu li:first-child{
   padding-right: 6%;
@@ -104,29 +128,73 @@ font-family: 'Montserrat', sans-serif;
 
 #menu li a{
   text-decoration:none;
+}
 
 
-  }
+/* -------------- About-------------- */
+
+
+#about{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 20%;
+  margin-bottom: 160px;
+  display: none;
+}
+
+.about_titre{
+  text-decoration: none !important;
+  padding-bottom: 20px;
+  margin-left: -10px;
+}
+
+.col {
+  width: 190px;
+  margin-left: 100px;
+  float: left;
+
+}
+.col_desciption{
+
+  width: 290px;
+  float: left;
+}
+
+.col_desciption p{
+font-size:13px;
+line-height: 20px;
+font-family: 'Montserrat', sans-serif;
+color: blue;
+font-style: italic;
+font-weight: 100;
+}
+
+.col a{
+  font-size:16px;
+  line-height: 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: blue;
+  text-decoration: underline;
+}
+
+.col p{
+font-size:16px;
+line-height: 15px;
+font-family: 'Montserrat', sans-serif;
+color: blue;
+text-decoration: underline;
+}
 
 
 /* -------------- Projects-------------- */
 
 .project{
-  width: 190px;
-  height:281px;
+  width: 180px;
+  height:280px;
   background-color: blue;
   float: left;
-  margin-right: 5%;
-  padding-left: 2px;
+  margin-right: 80px;
   margin-bottom: 50px;
 }
-
-.project p{
-
-background-color: red;
-width: 100%;
-height: 100%;
-}
-
-/* -------------- About-------------- */
 
